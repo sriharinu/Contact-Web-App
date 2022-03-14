@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding: 0;
+	margin: 0;
+	background: radial-gradient(#8e9eab,#eef2f3);
+}
+table{
+	background: #4A4A48;
+	width:1530px;
+	color: white;
+	border-bottom: 2px solid black;
+	border-collapse: collapse;
+	margin-left: 2px;
+	
+}
+th,td{
+	text-align: left;
+	border-bottom: 2px solid black;
+	padding: 9px 10px;
+}
+h1{
+	text-align: center;
+	background: #C15152;
+	border:2px solid black;
+}
+p{
+	font-size: 20px;
+}
+u{
+	color: red;
+}
+button[type="button"]{
+	float: left;
+	border: 1px solid #bcbccf;
+	background: #050505;
+	display: inline-block;
+	color: white;
+	padding: 9px 30px;
+	margin: 10px auto;
+	cursor: pointer;
+	transition-duration: 0.5s;
+	border-radius: 7px;
+}
+button[type="button"]:hover{
+	background: white;
+	color:#ff0000;
+}
